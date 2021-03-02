@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: hero-new, sans-serif;
+    font-weight: 300;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+}
+
+h1 {
+    background: url('../img/logo.svg') no-repeat;
+    mix-blend-mode: overlay;
+    width: 304px;
+    height: 174px;
+    text-indent: 1000px;
+    overflow: hidden;
+}
+
+h2 {
+    font-weight: 300;
+    width: 120px;
+    font-size: 24px;
+    color: #676767;
+    margin: 0 0 50px 14px;
+}
